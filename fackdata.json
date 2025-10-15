@@ -1,0 +1,109 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Aroma Coffee Beans",
+      "category": "Coffee",
+      "price": 850,
+      "inStock": true,
+      "rating": 4.7,
+      "brand": "CoffeeNest",
+      "added": "2024-05-10"
+    },
+    {
+      "id": 2,
+      "name": "Deluxe Espresso Machine",
+      "category": "Appliance",
+      "price": 12500,
+      "inStock": false,
+      "rating": 4.9,
+      "brand": "BrewMaster",
+      "added": "2023-11-18"
+    },
+    {
+      "id": 3,
+      "name": "Classic Ceramic Mug Set (4 pcs)",
+      "category": "Accessories",
+      "price": 650,
+      "inStock": true,
+      "rating": 4.4,
+      "brand": "Mugify",
+      "added": "2025-01-12"
+    },
+    {
+      "id": 4,
+      "name": "Organic Green Tea Leaves",
+      "category": "Tea",
+      "price": 550,
+      "inStock": true,
+      "rating": 4.6,
+      "brand": "LeafyBlend",
+      "added": "2024-09-22"
+    },
+    {
+      "id": 5,
+      "name": "French Press Coffee Maker",
+      "category": "Appliance",
+      "price": 1950,
+      "inStock": true,
+      "rating": 4.8,
+      "brand": "BrewEase",
+      "added": "2022-07-15"
+    },
+    {
+      "id": 6,
+      "name": "Vanilla Latte Syrup (500ml)",
+      "category": "Syrup",
+      "price": 450,
+      "inStock": false,
+      "rating": 4.2,
+      "brand": "SweetSip",
+      "added": "2024-12-08",
+      "image": "https://ibb.co.com/zW645GSP"
+    },
+    {
+      "id": 7,
+      "name": "Cold Brew Coffee Bottle",
+      "category": "Coffee",
+      "price": 320,
+      "inStock": true,
+      "rating": 4.5,
+      "brand": "BrewChill",
+      "added": "2025-06-07",
+      "image": "https://ibb.co.com/zW645GSP"
+    },
+    {
+      "id": 8,
+      "name": "Matcha Whisk & Bowl Set",
+      "category": "Accessories",
+      "price": 990,
+      "inStock": true,
+      "rating": 4.3,
+      "brand": "ZenLeaf",
+      "added": "2023-03-18",
+      "image": "https://ibb.co.com/zW645GSP"
+    },
+    {
+      "id": 9,
+      "name": "Cappuccino Foam Maker",
+      "category": "Appliance",
+      "price": 1250,
+      "inStock": true,
+      "rating": 4.6,
+      "brand": "FrothPro",
+      "added": "2025-09-02",
+      "image": "https://ibb.co.com/zW645GSP"
+    },
+    {
+      "id": 10,
+      "name": "Caramel Coffee Pods (Pack of 10)",
+      "category": "Coffee",
+      "price": 700,
+      "inStock": true,
+      "rating": 4.5,
+      "brand": "Podify",
+      "added": "2021-02-10",
+      "image": "https://ibb.co.com/zW645GSP"
+    }
+  ]
+}
