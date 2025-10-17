@@ -15,7 +15,7 @@ export default function Productcard({ product }: { product: Iproduct }) {
       </div>
       <div>
         <div className="flex justify-between">
-          <h2 className="text-2xl text-black font-bold font-stretch-semi-condensed">
+          <h2 className="text-xl text-black font-semibold font-serif">
             {product.name}
           </h2>
           <p className="text-black">4.7</p>
