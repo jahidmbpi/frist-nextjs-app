@@ -1,5 +1,11 @@
 "use client";
-const ErrorPage = ({ error, reset }) => {
+const ErrorPage = ({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string };
+  reset: () => void;
+}) => {
   console.log(error);
   return (
     <div className=" flex text-center items-center justify-center min-h-dvh">

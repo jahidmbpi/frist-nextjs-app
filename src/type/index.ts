@@ -6,5 +6,5 @@ export interface Iproduct {
   inStock: boolean;
   rating: number;
   brand: string;
-  added: Date;
+  added: string;
 }
