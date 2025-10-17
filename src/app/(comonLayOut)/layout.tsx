@@ -1,4 +1,4 @@
-import Navbar from "../../components/Navbar";
+import Navbar from "@/src/component/modules/NavBar/Navbar";
 
 export default function ComonLayOut({
   children,
@@ -8,7 +8,6 @@ export default function ComonLayOut({
   return (
     <div>
       <Navbar></Navbar>
-
       {children}
     </div>
   );

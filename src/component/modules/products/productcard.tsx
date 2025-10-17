@@ -1,6 +1,7 @@
+import { Iproduct } from "@/src/type";
 import Image from "next/image";
 
-export default function Productcard({ product }) {
+export default function Productcard({ product }: { product: Iproduct }) {
   return (
     <div className="bg-white overflow-hidden shadow-lg rounded-lg p-2">
       <div className="relative object-contain ">
