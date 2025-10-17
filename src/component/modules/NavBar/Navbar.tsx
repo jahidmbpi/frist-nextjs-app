@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between p-4">
         <Logo></Logo>
         <div className="hidden md:block">
-          <div className=" flex gap-4 font-serif font-semibold capitalize ">
+          <div className=" flex gap-4 font-sans-serif font-semibold capitalize ">
             {navItem.map((item, index) => (
               <Link href={item.path} key={index}>
                 {item.route}
