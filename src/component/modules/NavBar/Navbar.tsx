@@ -6,8 +6,8 @@ import { Menu } from "./Menu";
 
 export default function Navbar() {
   return (
-    <div className="fixed top-6 inset-x-4 max-w-7xl mx-auto rounded-full bg-background border dark:border-slate-700/70 z-30">
-      <div className="flex items-center justify-between p-4">
+    <div className="fixed top-6 inset-x-4 max-w-6xl mx-auto rounded-full bg-background border dark:border-slate-700/70 z-30">
+      <div className="flex items-center justify-between px-4 py-2">
         <Logo></Logo>
         <div className="hidden md:block">
           <div className=" flex gap-4 font-sans-serif font-semibold capitalize ">

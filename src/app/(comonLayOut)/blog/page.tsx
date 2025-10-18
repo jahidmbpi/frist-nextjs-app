@@ -1,5 +1,25 @@
+import BlogCard from "@/src/component/modules/blog/BlogCard";
+
+import { IFeaturePost } from "@/src/type";
 import React from "react";
 
-export default function Blog() {
-  return <div> this is Blog page </div>;
+export default async function Blog() {
+  const res = await fetch("http://localhost:5001/api/v1/post", {
+    cache: "no-store",
+  });
+  const postdata = await res.json();
+  return (
+    <div>
+      <div>
+        <h2 className="text-xl font-sans capitalize font-bold text-center my-6">
+          feature post
+        </h2>
+      </div>
+      <div className="max-w-5xl mx-auto  grid grid-cols-1 md:grid-cols-3 gap-4">
+        {postdata?.data?.map((post: IFeaturePost) => (
+          <BlogCard key={post.id} post={post}></BlogCard>
+        ))}
+      </div>
+    </div>
+  );
 }

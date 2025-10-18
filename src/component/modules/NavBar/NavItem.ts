@@ -6,8 +6,8 @@ export const navItem = [
     route: "home",
   },
   {
-    path: "/products",
-    route: "products",
+    path: "/blog",
+    route: "blogs",
   },
   {
     path: "/about",
