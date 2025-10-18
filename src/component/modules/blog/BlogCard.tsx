@@ -9,9 +9,8 @@ interface FeturePostCardProps {
 export default function BlogCard({ post }: FeturePostCardProps) {
   const navigate = useRouter();
 
-  console.log(post);
   return (
-    <div className=" border p-2 rounded-lg">
+    <div className=" border p-2 rounded-lg hover:scale-105 transition-transform duration-300">
       <div className="h-[180px] w-full relative overflow-hidden rounded-t-lg">
         <Image
           src="https://i.ibb.co.com/fVDxS4Cr/6.jpg"
