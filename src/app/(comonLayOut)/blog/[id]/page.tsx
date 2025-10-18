@@ -20,7 +20,7 @@ export default async function BlogDetails({
             {data.title}
           </h2>
           <div className="flex items-center space-x-2">
-            <CircleUserRound />
+            <CircleUserRound className="bg-blue-400 rounded-full" size={30} />
             <div className="font-serif font-light leading-tight">
               <h2>{data.author.name}</h2>
               <p>{data.author.email}</p>
