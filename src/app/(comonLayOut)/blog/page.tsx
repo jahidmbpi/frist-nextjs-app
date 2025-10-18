@@ -10,9 +10,9 @@ export default async function Blog() {
   const postdata = await res.json();
   return (
     <div>
-      <div>
+      <div className="md:mt-[100px]">
         <h2 className="text-xl font-sans capitalize font-bold text-center my-6">
-          feature post
+          all blogs
         </h2>
       </div>
       <div className="max-w-5xl mx-auto  grid grid-cols-1 md:grid-cols-3 gap-4">
