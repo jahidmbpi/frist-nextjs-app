@@ -6,5 +6,5 @@ export default async function BlogDetails({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  return <div>BlogDetails:{id}</div>;
+  return <div className="max-w-7xl mx-auto">BlogDetails:{id}</div>;
 }

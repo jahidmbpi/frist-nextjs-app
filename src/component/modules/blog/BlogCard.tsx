@@ -1,10 +1,14 @@
+"use client";
 import { IFeaturePost } from "@/src/type";
-import { CircleUserRound } from "lucide-react";
+import { ArrowRight, CircleUserRound } from "lucide-react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 interface FeturePostCardProps {
   post: IFeaturePost;
 }
-export default function FeturePostCard({ post }: FeturePostCardProps) {
+export default function BlogCard({ post }: FeturePostCardProps) {
+  const navigate = useRouter();
+
   console.log(post);
   return (
     <div className=" border p-2 rounded-lg">
@@ -30,7 +34,13 @@ export default function FeturePostCard({ post }: FeturePostCardProps) {
           </h2>
           <p>{post.viewCount} views</p>
         </div>
-        <p className="text-right text-blue-600">read more</p>
+        <div
+          onClick={() => navigate.push(`/blog/${post.id}`)}
+          className="flex items-center justify-end text-blue-600 mt-3 cursor-pointer"
+        >
+          <p className="mr-1">Read more</p>
+          <ArrowRight size={16} />
+        </div>
       </div>
     </div>
   );
