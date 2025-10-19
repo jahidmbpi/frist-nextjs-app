@@ -1,6 +1,21 @@
+import { getBlogById } from "@/src/services/PostServices";
 import { CircleUserRound } from "lucide-react";
 import Image from "next/image";
 import React from "react";
+
+export const generateMetadata = async ({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) => {
+  const { id } = await params;
+  const blog = await getBlogById(id);
+
+  return {
+    title: blog?.title,
+    description: blog?.content,
+  };
+};
 
 export default async function BlogDetails({
   params,
